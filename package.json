@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "chart.js": "^3.6.1",
     "react": "^16.1.1",
     "react-bootstrap": "^2.0.2",
     "react-bootstrap-table-next": "^3.0.1",
