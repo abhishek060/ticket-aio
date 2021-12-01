@@ -6,7 +6,8 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "chart.js": "^3.6.1",
+    "chart.js": "^2.9.4",
+    "concurrently": "^6.4.0",
     "react": "^16.1.1",
     "react-bootstrap": "^2.0.2",
     "react-bootstrap-table-next": "^3.0.1",
@@ -18,7 +19,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "server": "cd back-end && npm start",
+    "client": "react-scripts start",
+    "start": "concurrently -n 'client,server' -c 'blue,green' \"npm run client\" \"npm run server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
