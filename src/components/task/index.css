@@ -1,0 +1,41 @@
+.task-submenu {
+    line-height: 30px;
+}
+
+.task-submenu span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.task-manger-btns {
+    right: 25px;
+}
+
+.task-manger-btns ul {
+    display: flex;
+    padding: 0;
+}
+
+.task-manger-btns ul li {
+    margin-right: 10px;
+}
+
+.task-manger-btns ul .create-btn .default-btn:hover{
+    border:2px solid #DBDBDB;
+    background: #DBDBDB;
+}
+
+.task-manger-btns ul .start-btn .default-btn:hover{
+    border:2px solid #CEB6AC;
+    background: #CEB6AC;
+}
+
+.task-manger-btns ul .stop-btn .default-btn:hover{
+    border:2px solid #CC8366;
+    background: #CC8366;
+}
+
+.task-manger-btns ul .delete-btn .default-btn:hover{
+    border:2px solid #CA7653;
+    background: #CA7653;
+}

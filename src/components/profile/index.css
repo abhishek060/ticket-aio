@@ -1,0 +1,59 @@
+.profile-submenu {
+    line-height: 30px;
+}
+
+.profile-submenu span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.profile-manger-btns {
+    right: 25px;
+}
+
+.profile-manger-btns ul {
+    display: flex;
+    padding: 0;
+}
+
+.profile-manger-btns ul li {
+    margin-right: 10px;
+}
+
+.profile-manger-btns ul .create-btn .default-btn:hover{
+    border:2px solid #DBDBDB;
+    background: #DBDBDB;
+}
+
+.profile-manger-btns ul .start-btn .default-btn:hover{
+    border:2px solid #CEB6AC;
+    background: #CEB6AC;
+}
+
+.profile-manger-btns ul .edit-btn .default-btn:hover{
+    border:2px solid #CA9B87;
+    background: #CA9B87;
+}
+
+.profile-manger-btns ul .stop-btn .default-btn:hover{
+    border:2px solid #CC8366;
+    background: #CC8366;
+}
+
+.profile-manger-btns ul .delete-btn .default-btn:hover{
+    border:2px solid #CA7653;
+    background: #CA7653;
+}
+.profile-manger-btns ul .create-btn label {
+    background: #0F467E !important;
+    color: #FFF !important;
+    border: none !important;
+    height: 40px !important;
+    font-size: 14px;
+    border-radius: 0.25rem;
+    padding: 9px;
+    cursor: pointer;
+}
+.csv-reader-input {
+    display: none;
+}

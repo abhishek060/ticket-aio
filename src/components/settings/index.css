@@ -1,0 +1,26 @@
+.captcha-submenu {
+    line-height: 30px;
+}
+
+.captcha-submenu span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.captcha-manger-btns {
+    right: 25px;
+}
+
+.profile-manger-btns ul {
+    display: flex;
+    padding: 0;
+}
+
+.profile-manger-btns ul li {
+    margin-right: 10px;
+}
+
+.profile-manger-btns ul .deactivate-btn .default-btn:hover{
+    border:2px solid #DBDBDB;
+    background: #DBDBDB;
+}

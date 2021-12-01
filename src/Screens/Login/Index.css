@@ -1,0 +1,21 @@
+.login-form {
+    width: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    display: grid;
+    overflow: auto;
+}
+
+.login-form img, .login-form input {
+    margin: 0 auto;
+}
+
+.login-form button {
+    margin: 0 auto;
+    width: 30%;
+    font-size: 14px;
+}

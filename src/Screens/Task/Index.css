@@ -1,0 +1,174 @@
+.task-main-container{
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20px !important;
+    /*background: #211414;*/
+    /*background-image: url("../../images/logo/background.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: 0% 100%;*/
+    /*background-size: 100% 22%;*/
+    overflow: auto;
+
+}
+#taskDataTable thead th {
+    text-align: center !important;
+    z-index: 1;
+    background: #211414;
+    position: sticky;
+    top: 0;
+}
+.logTable td, #logTable thead th {
+    padding: 5px !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    word-wrap: break-word !important;
+}
+
+/*#taskDataTable thead th{*/
+    /*color: #E0B9A7;*/
+/*}*/
+
+#taskDataTable tbody tr td:nth-child(4){
+    white-space: nowrap;
+    /* width: 79px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*#taskDataTable tbody tr:nth-child(even){*/
+    /*background-color: #271B1B;*/
+/*}*/
+
+/*#taskDataTable tbody tr{*/
+    /*opacity: 0.5;*/
+/*}*/
+
+::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/*#taskDataTable tbody tr td:nth-child(1){*/
+    /*!*background: #211414 !important;*!*/
+    /*color: #0F467E !important;*/
+    /*font-size: 12px !important;*/
+/*}*/
+
+/*#taskDataTable tbody tr td:nth-child(2){*/
+    /*border-top-left-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+/*}*/
+
+/*#taskDataTable tbody tr td:nth-child(8){*/
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+    /*background: #392E2E !important;*/
+/*}*/
+
+
+
+/*#taskDataTable tbody tr td:nth-child(4) {*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+/*}*/
+
+#taskaddForm .modal-body{
+    text-align: center;
+}
+
+#taskaddForm .modal-body .c-task-header {
+    font-size: 18px;
+}
+
+.line-h-40{
+    line-height: 40px !important;
+}
+
+.modal-content{
+    z-index: 9999;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.setting-minus, .setting-plus {
+    background: #F18C16 !important;
+    margin: 0 3px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.form-control {
+    color: #828a91;
+}
+
+.created {
+    color: white;
+    background-color: #0F467E;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.stopped {
+    color: white;
+    background-color: #F18C16;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.c-pointer {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.fa-play:hover {
+    color: #00be00;
+}
+
+.fa-pause:hover, .fa-pen:hover {
+    color: #F18C16;
+}
+
+.fa-trash:hover {
+    color: #d00000;
+}
+
+.fa-copy:hover {
+    color: #828a91;
+}
+
+.fa-info:hover {
+    color: #0F467E;
+}

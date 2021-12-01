@@ -1,0 +1,124 @@
+.profile-main-container {
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20px !important;
+    /*background: #211414;*/
+    /*background-image: url("../../images/logo/background.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: 0% 100%;*/
+    /*background-size: 100% 22%;*/
+    z-index: 9999;
+    overflow: auto;
+
+}
+
+/*#profileDataTable thead th {*/
+    /*text-align: center !important;*/
+    /*z-index: 1;*/
+    /*background: #211414;*/
+    /*position: sticky;*/
+    /*top: 0;*/
+/*}*/
+
+/*#profileDataTable {*/
+    /*border-collapse: separate;*/
+    /*border-spacing: 0px 6px !important;*/
+    /*table-layout: auto !important;*/
+/*}*/
+
+/*#profileDataTable tbody tr{*/
+    /*opacity: 0.5;*/
+/*}*/
+
+/*#profileDataTable thead th {*/
+    /*color: #E0B9A7;*/
+/*}*/
+
+/*#profileDataTable tbody tr:nth-child(odd) {*/
+    /*background: #2F2323;*/
+/*}*/
+
+/*#profileDataTable tbody tr:nth-child(even) {*/
+    /*background-color: #271B1B;*/
+/*}*/
+
+/*#profileDataTable tbody tr td:nth-child(1) {*/
+    /*background: #211414 !important;*/
+/*}*/
+
+/*#profileDataTable tbody tr td:nth-child(2) {*/
+    /*border-top-left-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+/*}*/
+
+/*#profileDataTable tbody tr td:nth-child(5) {*/
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+    /*background: #392E2E !important;*/
+    /*width: 10% !important;*/
+/*}*/
+
+/*#profileDataTable thead th, #profileDataTable tbody td {*/
+    /*border-width: 0 !important;*/
+/*}*/
+
+/*tabs customisation*/
+.nav {
+    background: transparent !important;
+    margin-top:20px !important;
+}
+
+.nav-tabs .nav-link {
+    background: transparent !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #5E4747 !important;
+    text-align: center;
+    height: 40px;
+}
+
+.nav-link.active{
+    border-bottom: 1px solid #CA7653 !important;
+}
+
+.profile-input {
+    height: 40px;
+    width: 100%;
+    background: #231717;
+    outline: none;
+    border: none !important;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #878080 !important;
+    margin: 0 auto;
+}
+
+.profile-input::placeholder {
+    color: #FFF !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.form-control {
+    color: #828a91;
+}
+
+.c-pointer {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.fa-pen:hover {
+    color: #F18C16;
+}
+
+.fa-trash:hover {
+    color: #d00000;
+}

@@ -1,0 +1,26 @@
+.captcha-submenu {
+    line-height: 30px;
+}
+
+.captcha-submenu span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.captcha-manger-btns {
+    right: 25px;
+}
+
+.captcha-manger-btns ul {
+    display: flex;
+    padding: 0;
+}
+
+.captcha-manger-btns ul li {
+    margin-right: 10px;
+}
+
+.captcha-manger-btns ul .add-account-btn .default-btn:hover{
+    border:2px solid #DBDBDB;
+    background: #DBDBDB;
+}

@@ -1,0 +1,69 @@
+.header-nav{
+    height: 80px;
+    line-height: 80px;
+    display: inline-flex !important;
+}
+
+.header-nav div img{
+    height: 50px;
+    width: 140px;
+}
+
+.menu-items{
+    margin-left: 50px;
+}
+
+.menu-items ul{
+    display: inline-flex !important;
+}
+
+.menu-items ul li i{
+    /*color: #514848 !important;*/
+    font-size: 20px;
+}
+.menu-items ul li{
+    position: relative;
+    list-style:none !important;
+    margin-left: 35px;
+}
+.menu-items ul li span{
+    position: absolute;
+    left: -3px;
+    top:18px;
+    font-size: 13px;
+    /*margin-left: -28px;*/
+}
+input[type=checkbox]:checked{
+    background: rgba(40,40,40,0.7);
+}
+
+#title-bar {
+    -webkit-app-region: drag;
+}
+
+#title-bar-btns {
+    -webkit-app-region: no-drag;
+    right: 5px;
+    position: absolute;
+    top:-25px;
+}
+
+#title-bar-btns i {
+    padding: 6px;
+    background: transparent;
+    width: 25px;
+    text-align: center;
+    border: none;
+    color: #0F467E;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#close-btn:hover{
+    background: #ff0000;
+}
+
+input[type=checkbox]:checked{
+
+    background: rgba(40,40,40,0.7);
+}

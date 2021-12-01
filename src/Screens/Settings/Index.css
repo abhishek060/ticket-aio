@@ -1,0 +1,105 @@
+.settings-main-container {
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20px !important;
+    /*background: #211414;*/
+    position: relative !important;
+    /*background-image: url("../../images/logo/background.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: 0% 100%;*/
+    /*background-size: 100% 22%;*/
+
+}
+
+.settings-main-container .col {
+    border-radius: 10px;
+    padding: 20px;
+    /*background: #2F2323;*/
+    margin: 20px;
+    text-align: center;
+    display: grid;
+    height: 320px;
+}
+
+.settings-main-container .col div{
+    display: grid;
+}
+
+.settings-main-container .col div ul li{
+    margin-top: 10px;
+}
+
+.settings-main-container ul .yt-btn .default-btn:hover{
+    border:2px solid #FE515B;
+    background: #FE515B;
+}
+
+.settings-main-container ul .open-solver-btn .default-btn:hover,.proxy-main-container ul .clear-cc-btn .default-btn:hover  {
+    border:2px solid #CA7653;
+    background: #CA7653;
+}
+
+.settings-main-container .captcha-name{
+    text-align: left !important;
+    /*color: #E0B9A7;*/
+}
+
+.setting-panel{
+    /*margin-top: -45px;*/
+    height: 50px;
+    /* line-height: 50; */
+    /*background-color: #362B2B;*/
+    position: relative;
+}
+
+.counter-value{
+    width: 75%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: left;
+    height: fit-content;
+    border-radius: 4px;
+}
+
+.settings-plus-minus{
+    display: inline-flex !important;
+    width: 20%;
+    height: fit-content;
+}
+
+.setting-plus,.setting-minus{
+    color: #FFF;
+    background-color: #F18C16;
+    margin-left: 10px;
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.setting-footer {
+    padding: 20px;
+}
+
+.setting-footer-text{
+    color: #0F467E !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hover-btn{
+    cursor: pointer !important;
+}
+
+.settings-input{
+    border: 1px solid #594F4F !important;
+    height: 40px;
+    width: 100%;
+    background: #231717;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #878080 !important;
+    margin: 0 auto;
+}

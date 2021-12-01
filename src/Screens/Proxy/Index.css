@@ -1,0 +1,115 @@
+.proxy-main-container {
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20px !important;
+    /*height: 80%;*/
+    /*background: #211414;*/
+    position: relative;
+    /*background-image: url("../../images/logo/background.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: 0% 100%;*/
+    /*background-size: 100% 22%;*/
+
+}
+
+.proxy-main-container .col {
+    border-radius: 10px;
+    /*background: #2F2323;*/
+    margin: 20px;
+    text-align: center;
+    display: grid;
+    height: 90%;
+}
+
+.proxy-main-container .col div{
+    display: grid;
+}
+
+.proxy-main-container .col div ul li{
+    margin-top: 10px;
+}
+
+.proxy-main-container ul .yt-btn .default-btn:hover{
+    border:2px solid #FE515B;
+    background: #FE515B;
+}
+
+.proxy-main-container ul .open-solver-btn .default-btn:hover,.proxy-main-container ul .clear-cc-btn .default-btn:hover  {
+    border:2px solid #CA7653;
+    background: #CA7653;
+}
+
+.proxy-main-container .captcha-name{
+    text-align: left !important;
+}
+
+.proxy-main-container .enter-proxy-text{
+    padding: 10px 0 0 40px;
+}
+.proxy-list{
+    background-color: transparent;
+}
+
+/*#proxyTable{*/
+    /*border-collapse: separate;*/
+    /*border-spacing: 0px 6px !important;*/
+/*}*/
+
+/*#proxyTable thead th,#proxyTable tbody td{*/
+    /*border-width: 0 !important;*/
+/*}*/
+/*#proxyTable tbody tr:nth-child(odd){*/
+    /*!*background: #2F2323;*!*/
+    /*-webkit-border-radius: 10px;*/
+    /*-moz-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+/*}*/
+/*#proxyTable tbody tr:nth-child(even){*/
+    /*!*background-color: #271B1B;*!*/
+    /*-webkit-border-radius: 10px;*/
+    /*-moz-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+/*}*/
+
+/*#proxyTable thead th {*/
+    /*!*text-align: center !important;*!*/
+    /*z-index: 1;*/
+    /*!*background: #211414;*!*/
+    /*position: sticky;*/
+    /*top: 0;*/
+/*}*/
+
+/*#proxyTable tbody tr td:nth-child(1){*/
+    /*border-top-left-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+    /*text-align: left;*/
+    /*margin-bottom: 5px !important;*/
+
+/*}*/
+
+/*#proxyTable tbody tr td:nth-child(3){*/
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+    /*background: #392E2E !important;*/
+    /*text-align: left;*/
+
+/*}*/
+textarea {
+    resize: none;
+    padding: 10px;
+}
+
+.c-pointer {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.fa-play:hover {
+    color: #00be00;
+}
+
+.fa-trash:hover {
+    color: #d00000;
+}

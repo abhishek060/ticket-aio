@@ -1,0 +1,65 @@
+.captcha-main-container {
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20px !important;
+    /* background: #FFFFFF; */
+    /*background-image: url("../../images/logo/background.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: 0% 100%;*/
+    /*background-size: 100% 22%;*/
+}
+
+.captcha-main-container::-webkit-scrollbar {
+    display: none;
+}
+
+.captcha-main-container .col-md-4 {
+    flex:0 0 31.333333% !important;
+    border-radius: 10px;
+    padding: 20px;
+    /* background: #2F2323; */
+    margin: 5px;
+    text-align: center;
+    display: grid;
+}
+
+/* .captcha-main-container .col {
+    border-radius: 10px;
+    padding: 20px;
+    /*background: #2F2323;*/
+    /* margin: 20px;
+    text-align: center;
+    display: grid;
+    height: 320px;
+} */ */
+
+.captcha-main-container .col div,.captcha-main-container .col-md-4 div {
+    display: grid !important;
+}
+
+.captcha-main-container .col div ul li,.captcha-main-container .col-md-4 div ul li{
+    margin-top: 10px;
+}
+
+.captcha-main-container ul .yt-btn .default-btn:hover{
+    border:2px solid #FE515B;
+    background: #FE515B;
+}
+
+.captcha-main-container ul .open-solver-btn .default-btn:hover,.captcha-main-container ul .clear-cc-btn .default-btn:hover  {
+    border:2px solid #CA7653;
+    background: #CA7653;
+}
+
+.captcha-main-container .captcha-name{
+    text-align: left !important;
+}
+
+.sub-container-background div ul {
+    padding: 0;
+    margin: 0;
+}
+.form-control {
+    color: #828a91;
+}

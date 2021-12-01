@@ -1,0 +1,20 @@
+/*button css*/
+.default-btn{
+    border:2px solid #CA7653;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+    color: #FFF;
+    padding:0 15px 0 15px;
+    outline: none;
+}
+
+.default-btn:hover{
+    border:2px solid #CA7653;
+    background: #CA7653;
+}
+
+.default-btn:focus,.default-btn:active {
+    outline: none !important;
+    box-shadow: none;
+}

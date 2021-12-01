@@ -1,0 +1,49 @@
+.profile-submenu {
+    line-height: 30px;
+    display: inline-flex !important;
+}
+
+.profile-submenu span {
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #E0B9A7;
+}
+
+.profile-manger-btns {
+    position: absolute;
+    right: 25px;
+}
+
+.profile-manger-btns ul {
+    display: flex;
+}
+
+.profile-manger-btns ul li {
+    margin-left: 5px;
+}
+
+.profile-manger-btns ul .create-btn .default-btn:hover{
+    border:2px solid #DBDBDB;
+    background: #DBDBDB;
+}
+
+.profile-manger-btns ul .start-btn .default-btn:hover{
+    border:2px solid #CEB6AC;
+    background: #CEB6AC;
+}
+
+.profile-manger-btns ul .edit-btn .default-btn:hover{
+    border:2px solid #CA9B87;
+    background: #CA9B87;
+}
+
+.profile-manger-btns ul .stop-btn .default-btn:hover{
+    border:2px solid #CC8366;
+    background: #CC8366;
+}
+
+.profile-manger-btns ul .delete-btn .default-btn:hover{
+    border:2px solid #CA7653;
+    background: #CA7653;
+}
