@@ -4,8 +4,8 @@
 
 module.exports = {
 
-    BASE_URL: "http://localhost:3007/api/",
-    // BASE_URL: "http://18.223.135.24:3001/api/",
+    // BASE_URL: "http://localhost:3007/api/",
+    BASE_URL: "https://ticket-aio-api.herokuapp.com/api/",
 
     APP_ID: "351700145564620",
     LOCAL_STORAGE: {
